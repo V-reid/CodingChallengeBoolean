@@ -6,8 +6,8 @@ body{
 body > div{
     background-color: rgba(0, 0, 0, 0.507);
     width: 65%;
-    padding-bottom: 5%;
-    padding-top: 6.5%;
+    padding-bottom: 4.5%;
+    padding-top: 6.2%;
     margin: auto;
     text-align: center;
 }
@@ -44,6 +44,7 @@ div.monopattino{
     padding: 1.5%;
     border: 1px;
     border-radius: 4px;
+    margin-bottom: 1%;
 }
 #mp1{
     background-color: orange;
