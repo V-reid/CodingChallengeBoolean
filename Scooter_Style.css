@@ -39,14 +39,14 @@ div.monopattino{
 .monopattino > span{
     color: lightgray;
 }
-/* INIZIO ID */
-/* avrei potuto usare anche .monopattino > div ma ho preferito usare l'id visto che tanto avrei dovuto comunque cambiarli singolarmente*/
-#mp1,#mp2,#mp3{ 
+.rect{ 
     padding: 1.5%;
     border: 1px;
     border-radius: 4px;
     margin-bottom: 1%;
 }
+/* INIZIO ID */
+/* avrei potuto usare anche .monopattino > div ma ho preferito usare l'id visto che tanto avrei dovuto comunque cambiarli singolarmente*/
 #mp1{
     background-color: orange;
     width: 40%;
