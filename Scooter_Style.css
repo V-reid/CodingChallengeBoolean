@@ -1,0 +1,59 @@
+/* INIZIO TAG */
+body{
+    background-image: url("background.jpg");  
+    background-size: cover;
+}
+body > div{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 65%;
+    padding-bottom: 5%;
+    padding-top: 6.5%;
+    margin: auto;
+    text-align: center;
+}
+div > img{
+    width: 20%;
+    height: 20%;
+}
+div > h1{
+    color: lime;
+    margin: 0px;
+}
+div.monopattino{
+    text-align: left;
+    margin-left: 10%;
+}
+/* INIZIO CLASS */
+.command{
+    background-color: lime;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+.monopattino > h2{
+    color: white;
+    display: inline-block;
+    margin: 1%;
+}
+.monopattino > span{
+    color: lightgray;
+}
+/* INIZIO ID */
+/* avrei potuto usare anche .monopattino > div ma ho preferito usare l'id visto che tanto avrei dovuto comunque cambiarli singolarmente*/
+#mp1,#mp2,#mp3{ 
+    padding: 1.5%;
+    border: 1px;
+    border-radius: 4px;
+}
+#mp1{
+    background-color: orange;
+    width: 40%;
+}
+#mp2{
+    background-color: limegreen;
+    width: 65%;
+}
+#mp3{
+    background-color: red;
+    width: 20%;
+}
