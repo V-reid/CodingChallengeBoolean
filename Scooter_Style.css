@@ -2,6 +2,7 @@
 body{
     background-image: url("background.jpg");  
     background-size: cover;
+    background-repeat: no-repeat;
 }
 body > div{
     background-color: rgba(0, 0, 0, 0.507);
